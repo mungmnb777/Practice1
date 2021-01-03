@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ralo</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            body{
+                margin:0;
+            }
+            a{
+                color:black;
+                text-decoration:none;
+            }
+            h1{
+                font-size:50px;
+                text-align:center;
+                border-bottom: 1px solid black;
+                margin:0;
+                padding:30px;
+            }
+            h2{
+                font-size:40px;
+            }
+            ul{
+                border-right: 1px solid black;
+                width : 100px;
+                margin : 0;
+            }
+            #grid{
+                display : grid;
+                grid-template-columns: 150px 1fr;
+            }
+            #grid ul{
+                padding:20px;
+            }
+            #article{
+                padding:25px;
+            }
+            @media(max-width:800px){
+                #grid{
+                    display:block;
+                }
+                ul{
+                    border-right: none; 
+                }
+                h1{
+                    border-bottom: none;
+                }
+            }
+        </style>
+        <script src = "colors.js"></script>
+    </head>
+    <body>
+        <h1><a href = "index.html">Best Streamer</a></h1>
+        <div id = "grid">
+            <ul>
+                <li><a href = "Monstrat.html">Monstrat</a></li>
+                <li><a href = "PAKA.html">PAKA</a></li>
+                <li><a href = "Ralo.html">Ralo</a></li>
+            </ul>
+            <div id = "article">
+                <h2>랄로(Ralo)</h2>
+                <a href = "https://www.twitch.tv/aba4647"><img src = "Ralo.png" width = "30%"></a>
+                <p>전 카카오TV PD이자 현 트위치 스트리머이면서 LOL 前 챌린저 플레이어. 시즌2부터 Greenday라는 닉네임으로 플레이했던 올드비 유저다. 주로 미드라인에 서는 플레이어로 도파처럼 닉네임을 여러 차례 바꿨다. 이 사람이 유명세를 타게 된 닉네임은 'Ralo'였다. 실력이 뛰어난 점도 특징이었지만 '롤단기'라 불리는 대리 사이트와 관련이 있었다. 결국 이로 인해 영구정지를 받은 전적이 있다.[13] 이러한 전력 때문에 '랄사장' 혹은 사장의 일본식 발음인 '사쵸'[14]라 불리기도 했다. 이렇게 닉을 다양하게 썼기 때문에 여러 이름으로 불린다. 랄로, 사쵸, 그린데이, 본명 김찬호 등등... 배그를 플레이 하던 시절 여성 목소리 변조를 할때는 찬미라는 별명도 붙었었다.</p>
+            </div>  
+        </div>
+        <input type = "button" value = "day" onclick = "
+            DaynNightHandler(this);
+        ">
+    </body>
+</html>
